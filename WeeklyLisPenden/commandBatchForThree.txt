@@ -1,0 +1,4 @@
+ 
+gawk -F","  -v OFS="|" -f .\parseScriptGN.txt .\SearchResultsExport.csv > outputGN.txt
+gawk -F","  -v OFS="|" -f .\parseScriptJERICHO.txt .\SearchResultsExport.csv > outputJERICHO.txt
+gawk -F","  -v OFS="|" -f .\parseScriptMANHASSET.txt .\SearchResultsExport.csv > outputMANHASSET.txt

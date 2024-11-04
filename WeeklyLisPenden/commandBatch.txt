@@ -1,0 +1,2 @@
+ 
+gawk -F","  -v OFS="|" -f .\parseScript.txt .\SearchResultsExport.csv > output.txt
